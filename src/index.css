@@ -9,8 +9,7 @@
    background: #000000; 
 }
 
-html,
-body {
-  height: auto;
-  overflow: hidden; /* Important for Lenis to control scrolling */
+html, body {
+  height: 100%;
+  overflow-y: auto;
 }
