@@ -1,11 +1,12 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaBehance } from "react-icons/fa";
+import Logo from "../../assets/monulogo.webp"
 
 const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-6'>
       <div className='flex flex-shrink-0 items-center'>
         <a href="/" aria-label="Home">
-          <img src="\src\assets\monulogo.webp" alt="logo" className="mx-2" width={50} height={33} />
+          <img src={Logo} alt="logo" className="mx-2" width={50} height={33} />
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">

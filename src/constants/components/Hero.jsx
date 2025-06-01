@@ -1,6 +1,7 @@
 
 import { HERO_CONTENT } from "../index";
 import { motion } from "framer-motion"
+import HeroImg from "../../assets/monu-hero.JPG"
 
 const containerVariants = {
     hidden: {opacity: 0, x: -100},
@@ -26,7 +27,7 @@ const Hero = () => {
             <div className="w-full lg:w-1/2">
             <div className="flex justify-center lg:p-8 mb-10">
               <motion.img 
-  src="/src/assets/monu-hero.JPG" 
+  src={HeroImg} 
   alt="Hero-Monu" 
   className="object-cover w-[90%] h-[520px] rounded-3xl mix-blend-lighten"
   style={{ boxShadow: 'inset 0 -30px 30px -10px rgba(0,0,0,0.5)' }}
