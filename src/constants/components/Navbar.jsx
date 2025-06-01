@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaBehance } from "react-icons/fa";
-import Logo from "../../assets/monulogo.webp"
+import Logo from "../../assets/monulogo.webp";
 
 const Navbar = () => {
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/in/your-linkedin-profile"
+          href="https://www.linkedin.com/in/monu-kumar-a2b257220"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -19,8 +19,8 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
 
-         <a
-          href="https://www.github.com/in/your-github-profile"
+        <a
+          href="https://github.com/monuk52969"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Github"
@@ -28,8 +28,8 @@ const Navbar = () => {
           <FaGithub />
         </a>
 
-         <a
-          href="https://www.instagram.com/in/your-instagram-profile"
+        <a
+          href="https://www.instagram.com/markdev_services"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -37,16 +37,14 @@ const Navbar = () => {
           <FaInstagram />
         </a>
 
-         <a
-          href="https://www.behance.com/in/your-behance-profile"
+        <a
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Behance"
         >
           <FaBehance />
         </a>
-
-
       </div>
     </nav>
   );
