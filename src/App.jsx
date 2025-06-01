@@ -12,10 +12,12 @@ import Contact from './constants/components/Contact'
 const App = () => {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.2,
-      easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smooth: true,
-    })
+  duration: 1.2,
+  easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  smooth: true,
+  smoothTouch: true, // ✅ This line fixes mobile scroll
+  gestureOrientation: 'vertical',
+})
 
     const raf = (time) => {
       lenis.raf(time)
@@ -30,7 +32,7 @@ const App = () => {
   }, [])
 
   return (
-    <div className="overflow-x-hidden text-stone-300 antialiased">
+    <div className="min-h-screen overflow-x-hidden text-stone-300 antialiased">
       {/* 🌌 Background for whole site */}
       <div className="fixed inset-0 -z-20">
         <div className="relative h-full w-full bg-slate-950">
