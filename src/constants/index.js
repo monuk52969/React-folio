@@ -10,34 +10,35 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
+    year: "Jan 2025 - Present",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "Self-Employed / Portfolio Projects",
+    description: `Developed a fully animated personal portfolio using React, TailwindCSS, GSAP, and Lenis. Showcased advanced UI/UX, scroll-based effects, and custom components for services and project sections.`,
+    technologies: ["React", "TailwindCSS", "GSAP", "Lenis"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2025",
+    role: "Frontend Developer",
+    company: "Freelance Project - GTAVI 3D Website",
+    description: `Built a 3D showcase website inspired by GTA VI using Three.js and GSAP animations. Integrated immersive visuals, interactive camera controls, and responsive design for desktop and mobile.`,
+    technologies: ["Three.js", "GSAP", "HTML", "CSS"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2025",
+    role: "Web Developer",
+    company: "Freelance Project - 3D Gaming Showcase",
+    description: `Created a 3D gaming website featuring character animations, real-time interactions, and smooth scroll transitions. Focused on high-performance and interactive user experiences.`,
+    technologies: ["React", "Three.js", "Framer Motion", "GSAP"],
+  },
+  {
+    year: "2025",
+    role: "Frontend Developer",
+    company: "Freelance Project - Furniture Ecommerce",
+    description: `Developed a modern, responsive ecommerce website for a furniture brand. Integrated smooth animations, product filtering, and user-friendly navigation using modern frontend tools.`,
+    technologies: ["React", "TailwindCSS", "Framer Motion", "JavaScript"],
   },
 ];
+
 
 export const PROJECTS = [
   {
