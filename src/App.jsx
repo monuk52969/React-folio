@@ -4,6 +4,7 @@ import Technologies from './constants/components/Technologies'
 import Projects from './constants/components/Projects'
 import Experience from './constants/components/Experience'
 import Contact from './constants/components/Contact'
+import SplashCursor from "./customComponents/SplashCursor/SplashCursor"
 
 const App = () => {
   return (
@@ -17,9 +18,10 @@ const App = () => {
 
       {/* 🌐 Main Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <SplashCursor />
         <Navbar />
         <Hero />
-        <SplashCursor />
+        
         <Technologies />
         <Projects />
         <Experience />
